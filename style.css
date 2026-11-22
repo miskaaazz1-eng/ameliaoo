@@ -1,0 +1,115 @@
+/* STYLE UTAMA - TUGAS 4 ALGORITMA */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header{
+  text-align: right;
+  margin-bottom: 20px;
+}
+header h1{
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+header nav{
+  font-size: 14px;
+}
+header nav a{
+  color: #6a4cff;
+  text-decoration: underline;
+}
+header hr{
+  margin-top: 15px;
+}
+
+/* JUDUL SECTION */
+h2{
+  font-size: 20px;
+  margin: 22px 0 10px 0;
+}
+
+/* GAMBAR */
+.gambar-algoritma{
+  width: 100%;
+  max-width: 550px;
+  border: 1px solid #ddd;
+  display: block;
+  margin: 10px 0 15px 0;
+}
+
+/* PARAGRAF */
+p{
+  margin-bottom: 10px;
+  font-size: 15.5px;
+}
+
+/* LIST */
+ol, ul{
+  margin-left: 22px;
+  margin-bottom: 12px;
+}
+ol li, ul li{
+  margin-bottom: 3px;
+}
+.sub-list{
+  list-style-type: circle;
+  margin-top: 3px;
+}
+
+/* ISTILAH - DL */
+dl{
+  margin-bottom: 15px;
+}
+dt{
+  font-weight: bold;
+  margin-top: 10px;
+}
+dd{
+  margin-left: 18px;
+  color: #333;
+}
+
+/* CATATAN KUNING */
+.catatan{
+  background-color: #fff9c4;
+  border-left: 4px solid #facc15;
+  padding: 10px 12px;
+  margin-top: 15px;
+}
+
+/* LINK */
+a{
+  color: #5b3df5;
+}
+
+/* FOOTER */
+footer{
+  margin-top: 25px;
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+}
+footer hr{
+  margin-bottom: 10px;
+}
+
+/* HP */
+@media(max-width:600px){
+  body{padding:14px}
+  header h1{font-size:22px}
+  header{text-align:center}
+}
